@@ -1,0 +1,517 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    gap: 1rem;
+    padding: 20px;
+    justify-content: center;
+  
+}
+.header.imt{
+    float: left;
+    gap: 10rem;
+    background-color: aqua;
+}
+.header shopping-cart{
+    display: flex;  
+    align-items: center;
+    font-size: 2rem;
+}
+.shopping-cart a{
+    color: black;
+    text-decoration: none;
+    position: relative;
+    padding: 1.5rem 1rem;
+}
+
+.chu p{
+    margin-right:20%;
+}
+.chu button{
+    margin-right:20%;
+}
+.chu h1{
+    margin-right:20%;
+}
+.chu h2{
+    margin-right:20%;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.banner{
+    min-height: 450px;
+    min-width: 95%;
+    background-image: url('../images/bg-1.jpg');
+    background-position: 50cm;
+}
+.banner img{
+   position: absolute;
+   right: 50px;
+
+}
+.b{
+    position: absolute;
+    top: 200px;
+    right: 22.8cm;
+    font-size: 13px;
+}
+.C{
+    display: flex;
+    position: absolute;
+    top: 330px;
+    right: 23cm;
+    font-size: 10px;
+    background-color: #FF3300;
+    height: 30px;
+    width: 130PX;
+    justify-content: center;
+    border-radius: 3px;
+    padding: 0.5rem;
+    color: #FFF;
+}
+.banner h1{
+    position: absolute;
+    top: 220px;
+    right: 21.5cm;
+    
+}
+.banner h2{
+    position: absolute;
+    top: 260px;
+    right: 22.5cm;
+    font-size: 30px;
+    
+}
+.abc{
+    text-align: center;
+    padding: 2rem;
+}
+.nav{
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+.aside{
+    padding: 1rem;
+}
+.banner0{
+    display: flex;
+    justify-content: center;
+    gap: 15.5rem;
+}
+.banner0 p{
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+}
+.banner1{
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+    color: red;
+}
+.banner1 p{
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+}
+.banner2{
+    display: flex;
+    justify-content: center;
+    gap: 17.1rem;
+}
+.banner2 h3{
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+}
+.main2{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.banner3{
+    min-height: 450px;
+    min-width: 95%;
+    background-color: #DCDCDC;
+    background-position: 50cm;
+}
+.banner3 img{
+    position: absolute;
+    right: 50px;
+}
+.banner3 h1{
+    position: absolute;
+    margin-top: 8rem;
+    right: 22cm;
+    font-size: 60px;
+}
+.banner3 h2{
+    position: absolute;
+    margin-top: 13rem;
+    right: 20cm;
+    font-size: 30px;
+    font-style:unset;
+}
+.D{
+    display: flex;
+    position: absolute;
+    margin-top: 17rem;
+    right: 23.5cm;
+    font-size: 15px;
+    background-color: #FF3300;
+    height: 50px;
+    width: 160PX;
+    justify-content: center;
+    border-radius: 3px;
+    padding: 1rem;
+    color: #FFF;
+}
+
+.chu2 button{
+    margin-right:20%;
+}
+.chu2 h1{
+    margin-right:20%;
+}
+.chu2 h2{
+    margin-right:20%;
+}
+.abcd{
+    text-align: center;
+    padding: 1rem;
+}
+.nav2{
+    display: flex;
+    justify-content: center;
+    gap: 1cm;
+    padding: 1rem;
+}
+.banner4{
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+}
+.banner5{
+    display: flex;
+    justify-content: center;
+    gap: 14.5rem;
+    color: red;
+}
+.banner6{
+    display: flex;
+    justify-content: center;
+    gap: 16.5rem;
+}
+.header2{
+    display:flex ;
+    justify-content:center;
+    gap: 2rem;
+    padding: 1rem;
+}
+.item1{
+    text-align: center;
+    border: #DCDCDC;
+    border-style: solid;
+    border-width: 2px;
+    height: 110px;
+    width: 190px;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+.item2{
+    text-align: center;
+    border: #DCDCDC;
+    border-style: solid;
+    border-width: 2px;
+    height: 110px;
+    width: 190px;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.item3{
+    text-align: center;
+    border: #DCDCDC;
+    border-style: solid;
+    border-width: 2px;
+    height: 110px;
+    width: 190px;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.item4{
+    text-align: center;
+    border: #DCDCDC;
+    border-style: solid;
+    border-width: 2px;
+    height: 110px;
+    width: 190px;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.a{
+    text-align: center;
+    padding: 2cm;
+}
+.nav3{
+    display: flex;
+    justify-content: center;
+    gap: 1cm;
+}
+.aside2{
+    padding: 1rem;
+
+}
+.banner7{
+    display: flex;
+    justify-content: center;
+    gap: 4.5cm;
+}
+.banner8{
+    display: flex;
+    justify-content: center;
+    gap: 4.3cm;
+    color: red;
+}
+.banner9{
+    display: flex;
+    justify-content: center;
+    gap: 5.1cm;
+}
+.banner7 p{
+    padding-left: 2.8rem;
+    padding-right: 2.8rem;
+}
+.banner8 p{
+    padding-left: 2.8rem;
+    padding-right: 2.8rem;
+}
+.banner9 h3{
+    padding-left: 2.8rem;
+    padding-right: 2.8rem;
+}
+.nav4{
+    display: flex;
+    justify-content: center;
+    gap: 1cm;
+}
+.aside3{
+    padding: 1rem;
+}
+.banner10{
+    display: flex;
+    justify-content: center;
+    gap:4.5cm ;
+}
+.banner11{
+    display: flex;
+    justify-content: center;
+    gap: 4.3cm;
+    color: red;
+}
+.banner12{
+    display: flex;
+    justify-content: center;
+    gap: 5.1cm;
+}
+.banner10 p{
+    padding-left: 2.8rem;
+    padding-right: 2.8rem;
+}
+.banner11 p{
+    padding-left: 2.8rem;
+    padding-right: 2.8rem;
+}
+.banner12 h3{
+    padding-left: 2.8rem;
+    padding-right: 2.8rem;
+}
+.V{
+    display: flex;
+    justify-content: center;
+    padding: 2cm;
+}
+.main4{
+    display: flex;
+    justify-content: center;
+    gap: 1cm;
+   
+}
+.aside4{
+    display: flex;
+    gap: 0.5cm;
+    justify-content: center;
+
+}
+.g{
+    font-size: 15px;
+}
+.k{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0.2cm;
+}
+.kit{
+    display: flex;
+    justify-content: center;
+    padding: 2cm;
+}
+.nav5{
+    display: flex;
+    justify-content: center;
+    gap: 0.3cm;
+    padding: 2.5cm;
+}
+.footer{
+    display: flex;
+    background-color:#EAE3D9;
+    height: 450px;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.mai{
+    position: absolute;
+    left: 8cm;
+    text-align: center;
+}
+.mai1{
+    position: absolute;
+    left: 16cm;
+}
+.mai2{
+    position: absolute;
+    left: 24cm;
+}
+.mai3{
+    position: absolute;
+    left: 32cm;
+}
+.pk{
+    
+    padding: 1cm;
+    
+}
+.j{
+    padding: 0.2cm;
+    
+}
+.link{
+    padding-top:1cm;
+}
+.footer .app{
+    padding-top: 2.5rem;
+}
+.footer .android button{
+    display: flex;
+    position: absolute;
+    background-color: #ffffff;
+    width: 140px;
+    justify-content: center;
+    border-radius: 3px;
+    padding: 1rem;
+}
+.footer .android button i{
+    color: red;
+    font-size: 20px;
+    padding-right:10px;
+}
+.footer .android button p{
+    font-size: 8px;
+}
+.footer .android button p b{
+    font-size: 10px;
+}
+
+.footer .apple button{
+    display: flex;
+    position: absolute;
+    background-color: #ff0000;
+    width: 140px;
+    justify-content: center;
+    border-radius: 3px;
+    padding: 1rem;
+    margin-left: 10rem;
+    color: white;
+}
+.footer .apple button i{
+    font-size: 20px;
+    padding-right:10px;
+}
+.footer .apple button p{
+    font-size: 8px;
+}
+.footer .apple button p b{
+    font-size: 10px;
+}
+.mai3 hr{
+    margin-top: 6rem;
+}
+.link2{
+    padding-top:1rem;
+}
+h5{
+    text-align: left;
+    padding-top: 10px;
+    size: 2rem;
+}
+.footer .follow{
+    padding-top: 1rem;
+}
+
+.footer .fb button{
+    display: flex;
+    position: absolute;
+    background-color: #ffffff;
+    justify-content: center;
+    border-radius: 3px;
+    padding: 0.7rem;
+    color: rgb(0, 0, 0);
+}
+.footer .tw button{
+    display: flex;
+    position: absolute;
+    background-color: #ff0000;
+    justify-content: center;
+    border-radius: 3px;
+    padding: 0.7rem;
+    color: white;
+    margin-left:2.5rem;
+}
+.footer .pi button{
+    display: flex;
+    position: absolute;
+    background-color: #fdfdfd;
+    justify-content: center;
+    border-radius: 3px;
+    padding: 0.7rem;
+    color: rgb(0, 0, 0);
+    margin-left: 5rem;
+}
+.footer .ig button{
+    display: flex;
+    position: absolute;
+    background-color: #ffffff;
+    justify-content: center;
+    border-radius: 3px;
+    padding: 0.7rem;
+    color: rgb(0, 0, 0);
+    margin-left: 7.5rem;
+}
+hr{
+    margin-top: 20rem;
+}
+.shopping-cart span{
+    position: absolute;
+    color: white;
+    background: red;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    text-align: center;
+    top: 12px;left: 30px;
+}
